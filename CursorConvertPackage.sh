@@ -20,7 +20,7 @@ read -p "Add Shadows to Cursors? (y/n): " shadows
 output_dir="$output_dir"/"$Package_name"
 
 # Symbolic Links for cursors are obtained from Breeze cursors and modified slightly.
-symbolic0=("arrow" "left_ptr size-bdiag" "size-fdiag" "size-hor" "size-ver" "top_left_arrow")
+symbolic0=("arrow" "left_ptr" "size-bdiag" "size-fdiag" "size-hor" "size-ver" "top_left_arrow")
 symbolic1=("5c6cd98b3f3ebcb1f9c7f1c204630408" "d9ce0ab605698f320427677b458ad60b" "left_ptr_help" "question_arrow" "whats_this")
 symbolic2=("00000000000000020006000e7e9ffc3f" "08e8e1c95fe2fc01f976f1e063a24ccd" "3ecb610c1bf2410f44200f48c40d3599" "half-busy" "left_ptr_watch")
 symbolic3=("watch")
@@ -32,8 +32,8 @@ symbolic8=("3ecb610c1bf2410f44200f48c40d3599" "n-resize" "ns-resize" "s-resize" 
 symbolic9=("e-resize" "ew-resize" "h_double_arrow" "sb_h_double_arrow" "w-resize")
 symbolic10=("nw-resize" "nwse-resize" "se-resize")
 symbolic11=("ne-resize" "nesw-resize" "sw-resize")
-symbolic12=("4498f0e0c1937ffe01fd06f973665830" "9081237383d90e509aa00f00170e968f" "closedhand" "dnd-none" "fcf21c00b30f7e3f83fe0dfd12e71cff" "move")
-symbolic13=("link")
+symbolic12=("4498f0e0c1937ffe01fd06f973665830" "9081237383d90e509aa00f00170e968f" "closedhand" "dnd-none" "fcf21c00b30f7e3f83fe0dfd12e71cff" "move" "all-scroll" "fleur" "size_all")
+symbolic13=("link" "alias" "640fb0e74195791501fd1ed57b41487f" "3085a0e285430894940527032f8b26df" "a2a266d0498c3104214a47bd64ab0fc8")
 symbolic14=("9d800788f1b08800ae810202380a0822" "e29285e634086352946a0e7090d73106" "hand1" "hand2" "pointing_hand")
 
 symbolic=("symbolic0" "symbolic1" "symbolic2" "symbolic3" "symbolic4" "symbolic5" "symbolic6" "symbolic7" "symbolic8" "symbolic9" "symbolic10" "symbolic11" "symbolic12" "symbolic13" "symbolic14")
