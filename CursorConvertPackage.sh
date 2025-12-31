@@ -35,8 +35,10 @@ symbolic11=("ne-resize" "nesw-resize" "sw-resize")
 symbolic12=("4498f0e0c1937ffe01fd06f973665830" "9081237383d90e509aa00f00170e968f" "closedhand" "dnd-none" "fcf21c00b30f7e3f83fe0dfd12e71cff" "move" "all-scroll" "fleur" "size_all")
 symbolic13=("link" "alias" "640fb0e74195791501fd1ed57b41487f" "3085a0e285430894940527032f8b26df" "a2a266d0498c3104214a47bd64ab0fc8")
 symbolic14=("9d800788f1b08800ae810202380a0822" "e29285e634086352946a0e7090d73106" "hand1" "hand2" "pointing_hand")
+symbolic15=("split_v")
+symbolic16=("split_h")
 
-symbolic=("symbolic0" "symbolic1" "symbolic2" "symbolic3" "symbolic4" "symbolic5" "symbolic6" "symbolic7" "symbolic8" "symbolic9" "symbolic10" "symbolic11" "symbolic12" "symbolic13" "symbolic14")
+symbolic=("symbolic0" "symbolic1" "symbolic2" "symbolic3" "symbolic4" "symbolic5" "symbolic6" "symbolic7" "symbolic8" "symbolic9" "symbolic10" "symbolic11" "symbolic12" "symbolic13" "symbolic14" "symbolic15" "symbolic16")
 
 declare -a linux_names=(
   [0]="default"
@@ -54,6 +56,8 @@ declare -a linux_names=(
   [12]="dnd-move"
   [13]="up-arrow"
   [14]="pointer"
+  [15]="row-resize"
+  [16]="col-resize"
 )
 
 declare -a windows_names=(
@@ -72,6 +76,8 @@ declare -a windows_names=(
   [12]="move"
   [13]="alternate"
   [14]="link"
+  [15]="vertical_row"
+  [16]="horizontal_col"
 )
 
 function convert() {
